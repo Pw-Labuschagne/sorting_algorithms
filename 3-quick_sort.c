@@ -22,6 +22,7 @@ void quick_swap(int *a, int *b)
  * @arr: Array to be partitioned
  * @low: Low point of sort
  * @high: Hig point of sort
+ * @size: Print_array require size
  * Return: Index of new pivot point
  */
 
@@ -57,6 +58,7 @@ int partition(int arr[], int low, int high, size_t size)
  * @arr: Array to be sorted
  * @low: Low index point
  * @high: High index point
+ * @size: Print_array require size
  * Return: Nothing
  */
 
