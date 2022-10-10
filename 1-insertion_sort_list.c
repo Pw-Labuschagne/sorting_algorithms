@@ -2,9 +2,10 @@
 
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *temp, *counter, *current, *previous;
+	listint_t *current, *previous;
 	
 	current = (*list)->next;
+	previous = (*list)->prev;
 
 	while (current < previous && current != NULL)
 	{
