@@ -1,5 +1,12 @@
 #include "sort.h"
 
+/**
+ * insertion_sort_list - Used to sort a doubly linked list via 
+ * insertion sort method
+ * @list: Doubly linked list
+ * Return: Nothing
+ */
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *spot, *current, *last;
